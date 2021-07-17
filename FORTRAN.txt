@@ -1,0 +1,2 @@
+program fortranDemo 
+ implicit none   ! this demo  code takes 2 integers and spits 2 answers:  ! integer1 + integer2 and integer1 * integer2 .     real :: integer1, integer2   real :: addition, multiplication     !define the external (The outside of the main program) function. External function     real, external :: add     !************************************************    print *, "Enter integer1, integer2"  read *, interger1, integer2 
